@@ -1,0 +1,1 @@
+keytool -genkey -alias mulekey -keyalg RSA -sigalg SHA256withRSA -keystore DUO_test_keystore.jks -keysize 2048 -dname "CN=*.duosecurity.com, OU=IT, O=DUO Security, L=Ann Arbor, ST=MI, C=US" -keypass Abcd1234 -storepass Abcd1234 -validity 9999 -ext SAN=DNS:localhost,IP:10.74.94.88
